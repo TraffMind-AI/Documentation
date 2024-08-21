@@ -10,7 +10,8 @@ package-mode = false
 python = "^3.11"
 sphinx-autobuild = "^2021.3.14"
 m2r2 = "^0.3.3.post2"
-
+furo = "^2023.3.27"
+myst-nb = "^0.17.2"
 
 [build-system]
 requires = ["poetry-core"]
