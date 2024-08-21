@@ -10,6 +10,17 @@ build:
   os: ubuntu-22.04
   tools:
     python: "3.11"
+  jobs:
+    pre_create_environment:
+      - asdf plugin add poetry
+      - asdf install poetry latest
+      - asdf global poetry latest
+      - poetry export -f requirements.txt --output requirements.txt
+
 # Build documentation with Sphinx
 sphinx:
   configuration: conf.py
+
+python:
+  install:
+   - requirements: requirements.txt
