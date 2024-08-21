@@ -1,9 +1,9 @@
-.. Insight Docs documentation master file, created by
+.. TraffMind AI Docs documentation master file, created by
    sphinx-quickstart on Mon Aug 21 23:14:58 2023.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Insight!
+Welcome to TraffMind AI!
 ##########################
 
 Insight is an AI-powered platform that redefines medical research. Using peer-reviewed publications, it streamlines literature reviews, formulates hypotheses, and aids in experimental design. 
